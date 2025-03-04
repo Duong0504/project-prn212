@@ -1,0 +1,28 @@
+﻿<Window x:Class="frontend.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:frontend"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="ATGT" Height="450" Width="800">
+    <Grid>
+        <Canvas Background="LightBlue" Margin="0,0,322,0">
+            <Label Content="Traffic Violation Management Application"
+                   Foreground="Red" FontWeight="Bold" 
+                   Canvas.Left="74" Canvas.Top="77"
+       Width="330" Height="67" FontSize="15"/>
+            <Button Content="Login" Canvas.Left="512" Canvas.Top="235" HorizontalAlignment="Left" VerticalAlignment="Top" Width="78" Height="37"/>
+            <Label Content="Username" Background="LightGray" Canvas.Right="20" Canvas.Top="112"
+                   Width="81" Height="32" FontSize="15" Canvas.Left="497" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBox Name="txtUserName" Canvas.Left="595" Canvas.Top="112"
+                       Width="177" Height="32" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Content="Password" Background="LightGray" Canvas.Right="20" Canvas.Top="170"
+       Width="81" Height="32" FontSize="15" Canvas.Left="497" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox Name="txtPassword"
+           Canvas.Left="595" Canvas.Top="167"
+           Width="177" Height="35" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        </Canvas>
+    </Grid>
+</Window>

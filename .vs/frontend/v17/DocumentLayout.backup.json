@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\projectPRN212-g3\\frontend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7F9204-A208-432C-AB25-A8A0084BB566}|frontend\\frontend.csproj|d:\\projectprn212-g3\\frontend\\frontend\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6A7F9204-A208-432C-AB25-A8A0084BB566}|frontend\\frontend.csproj|solutionrelative:frontend\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7F9204-A208-432C-AB25-A8A0084BB566}|frontend\\frontend.csproj|d:\\projectprn212-g3\\frontend\\frontend\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7F9204-A208-432C-AB25-A8A0084BB566}|frontend\\frontend.csproj|solutionrelative:frontend\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 1245,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 143,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\projectPRN212-g3\\frontend\\frontend\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "frontend\\MainWindow.xaml",
+              "ToolTip": "D:\\projectPRN212-g3\\frontend\\frontend\\MainWindow.xaml*",
+              "RelativeToolTip": "frontend\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T02:06:56.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\projectPRN212-g3\\frontend\\frontend\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "frontend\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\projectPRN212-g3\\frontend\\frontend\\MainWindow.xaml.cs",
+              "RelativeToolTip": "frontend\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T02:06:53.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 13,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
