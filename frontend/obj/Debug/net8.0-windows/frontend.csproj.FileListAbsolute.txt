@@ -18,3 +18,4 @@ D:\projectPRN212-g3\frontend\frontend\obj\Debug\net8.0-windows\refint\frontend.d
 D:\projectPRN212-g3\frontend\frontend\obj\Debug\net8.0-windows\frontend.pdb
 D:\projectPRN212-g3\frontend\frontend\obj\Debug\net8.0-windows\frontend.genruntimeconfig.cache
 D:\projectPRN212-g3\frontend\frontend\obj\Debug\net8.0-windows\ref\frontend.dll
+D:\projectPRN212-g3\frontend\frontend\obj\Debug\net8.0-windows\frontend.sourcelink.json

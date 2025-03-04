@@ -7,22 +7,42 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         Title="ATGT" Height="450" Width="800">
+
     <Grid>
-        <Canvas Background="LightBlue" Margin="0,0,322,0">
-            <Label Content="Traffic Violation Management Application"
+        <Canvas Background="LightBlue" Margin="0,0,376,0">
+            <Label Content="Phản ánh vi phạm giao thông"
                    Foreground="Red" FontWeight="Bold" 
-                   Canvas.Left="74" Canvas.Top="77"
-       Width="330" Height="67" FontSize="15"/>
-            <Button Content="Login" Canvas.Left="512" Canvas.Top="235" HorizontalAlignment="Left" VerticalAlignment="Top" Width="78" Height="37"/>
-            <Label Content="Username" Background="LightGray" Canvas.Right="20" Canvas.Top="112"
-                   Width="81" Height="32" FontSize="15" Canvas.Left="497" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-            <TextBox Name="txtUserName" Canvas.Left="595" Canvas.Top="112"
-                       Width="177" Height="32" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-            <Label Content="Password" Background="LightGray" Canvas.Right="20" Canvas.Top="170"
-       Width="81" Height="32" FontSize="15" Canvas.Left="497" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                   Canvas.Left="10" Canvas.Top="27"
+       Width="404" Height="70" FontSize="22" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+            <Label Content="Tên đăng nhập" Background="LightGray" Canvas.Right="20" Canvas.Top="112"
+       Width="109" Height="32" FontSize="15" Canvas.Left="443" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+            <TextBox Name="txtUserName" Canvas.Left="565" Canvas.Top="112"
+                       Width="207" Height="32" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Content="Mật khẩu" Background="LightGray" Canvas.Right="20" Canvas.Top="170"
+       Width="109" Height="32" FontSize="15" Canvas.Left="443" HorizontalAlignment="Left" VerticalAlignment="Center"/>
             <TextBox Name="txtPassword"
-           Canvas.Left="595" Canvas.Top="167"
-           Width="177" Height="35" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+           Canvas.Left="565" Canvas.Top="167"
+           Width="207" Height="35" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button Content="Login" Canvas.Left="458" Canvas.Top="230" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="27"/>
+            <TextBlock Canvas.Left="565" Canvas.Top="236">
+    <Hyperlink NavigateUri="forgotpassword">
+        Quên mật khẩu?
+    </Hyperlink>
+            </TextBlock>
+            <Image Height="236" Canvas.Left="66" Source="/atgt.jpg" Stretch="Fill" Canvas.Top="130" Width="292" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="-0.391"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="-0.593"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+
         </Canvas>
+
     </Grid>
 </Window>
